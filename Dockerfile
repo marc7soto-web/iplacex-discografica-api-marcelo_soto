@@ -1,5 +1,5 @@
 # STAGE 1 - BUILD
-FROM gradle:8.11-jdk21 AS build
+FROM gradle:jdk21 AS build
 
 WORKDIR /app
 
